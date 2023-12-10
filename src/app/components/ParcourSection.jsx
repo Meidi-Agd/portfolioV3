@@ -10,7 +10,7 @@ const TAB_DATA = [
         id: "diplome",
         content: (
             <ul className="list-disc pl-2 list-none h-[150px]">
-                <li className="ml-4"><h3><b>BACHELOR</b> Concepteur de Systèmes d'Information</h3></li>
+                <li className="ml-4"><h3><b>BACHELOR</b> Concepteur de Systèmes d&apos;Information</h3></li>
                 <li className="ml-4"><h3><b>BTS SIO</b> option Solutions Logicielles et Applications Métiers</h3></li>
                 <li className="ml-4"><h3 className="text-base"><b>BAC PRO SN</b> option Réseaux Informatiques et Systèmes Communicants</h3></li>
             </ul>
