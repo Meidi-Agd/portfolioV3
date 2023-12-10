@@ -16,6 +16,10 @@
   }
 }
 
+*{
+  cursor: default;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -24,4 +28,10 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+
+
+.card-description {
+  transform: rotateY(180deg);
 }
