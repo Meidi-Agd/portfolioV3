@@ -43,7 +43,7 @@ const ProjetSection = () => {
                             <p className="text-white text-3xl font-bold">Portfolio</p>
                             <Image src="/images/portfolioImg.png" alt="Image GSB" width={520} height={520}
                                    className="border-2"/>
-                            <p className="text-white text-xl text-justify">Portfolio basé sur du ReactJS avec NextJS. Le projet du portfolio a pour but de m’initier à ces deux technologies.</p>
+                            <p className="text-white text-xl text-justify">Portfolio basé sur du ReactJS avec NextJS. Le projet du portfolio a pour but de m&apos;initier à ces deux technologies.</p>
                             <div
                                 className="w-full text-white flex flex-row justify-evenly items-center bg-[#917FB3] rounded-3xl">
                                 <Image src="/images/html.png" alt="Icones8" width={100} height={100}
@@ -90,7 +90,7 @@ const ProjetSection = () => {
                         <p className="text-white text-3xl font-bold">TheHive stats (en Dev)</p>
                         <Image src="/images/hivetoolsImg.png" alt="Image GSB" width={520} height={520}
                                className="border-2"/>
-                        <p className="text-white text-xl text-justify">Je souhaite créer une application où l’on peut consulter ses stats d’un serveur du jeu populaire Minecraft.</p>
+                        <p className="text-white text-xl text-justify">Je souhaite créer une application où l&apos;on peut consulter ses stats d’un serveur du jeu populaire Minecraft.</p>
                         <div
                             className="w-full text-white flex flex-row justify-evenly items-center bg-[#917FB3] rounded-3xl">
                             <Image src="/images/html.png" alt="Icones8" width={100} height={100}
@@ -140,7 +140,7 @@ const ProjetSection = () => {
                             <Image src="/images/gsblogo.jpg" alt="Image GSB" width={520} height={520}
                                    className="border-2"/>
                             <p className="text-white text-xl text-justify">GSB Appli-Frais est une application web pour
-                                la gestion des notes de frais d'une entreprise. </p>
+                                la gestion des notes de frais d&apos;une entreprise. </p>
                             <div
                                 className="w-full text-white flex flex-row justify-evenly items-center bg-[#917FB3] rounded-3xl">
                                 <Image src="/images/html.png" alt="Icones8" width={100} height={100}
