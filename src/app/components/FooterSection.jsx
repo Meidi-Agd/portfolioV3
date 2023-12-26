@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 const FooterSection = () => {
     return (
-        <section className="text-white mt-12 mb-12 h-[5vh]">
+        <section className="text-white mt-12 h-[5vh]">
             <p className="text-center">Made with ❤ by Meidi Augendre</p>
         </section>
     );
