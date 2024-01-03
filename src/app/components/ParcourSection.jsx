@@ -9,10 +9,10 @@ const TAB_DATA = [
         title: "Diplomes",
         id: "diplome",
         content: (
-            <ul className="list-disc pl-2 list-none h-[150px]">
-                <li className="ml-4"><h3><b>BACHELOR</b> Concepteur de Systèmes d&apos;Information</h3></li>
-                <li className="ml-4"><h3><b>BTS SIO</b> option Solutions Logicielles et Applications Métiers</h3></li>
-                <li className="ml-4"><h3 className="text-base"><b>BAC PRO SN</b> option Réseaux Informatiques et Systèmes Communicants</h3></li>
+            <ul className="list-disc pl-2 text-[15px] list-none h-[150px]">
+                <li className="ml-3"><h3><b>BACHELOR</b> Concepteur de Systèmes d&apos;Information</h3></li>
+                <li className="ml-3"><h3><b>BTS SIO</b> option Solutions Logicielles et Applications Métiers</h3></li>
+                <li className="ml-3"><h3><b>BAC PRO SN</b> option Réseaux Informatiques et Systèmes Communicants</h3></li>
             </ul>
         ),
     },
@@ -20,9 +20,9 @@ const TAB_DATA = [
         title: "Stages",
         id: "stage",
         content: (
-            <ul className="list-disc pl-2 list-none h-[150px]">
-                <li className="md:ml-4 mb-2">
-                    <p className="grid grid-cols-4 text-center">
+            <ul className="list-disc  list-none h-[150px]">
+                <li className="md:ml-3 mb-2 w-100">
+                    <p className="grid grid-cols-4 text-[13px] text-center">
                         <span>2023</span>
                         <Link href="https://www.agencemycom.fr/" target="_blank">MYCOM</Link>
                         <span>2 mois</span>
@@ -30,7 +30,7 @@ const TAB_DATA = [
                     </p>
                 </li>
                 <li className="md:ml-4 mb-2">
-                    <p className="grid grid-cols-4 text-center">
+                    <p className="grid grid-cols-4 text-[13px] text-center">
                         <span>2022</span>
                         <Link href="https://www.dpcdesign.fr/" target="_blank">DPC DESIGN</Link>
                         <span>1 mois</span>
@@ -38,7 +38,7 @@ const TAB_DATA = [
                     </p>
                 </li>
                 <li className="md:ml-4 mb-2">
-                    <p className="grid grid-cols-4 text-center">
+                    <p className="grid grid-cols-4 text-[13px] text-center">
                         <span>2021</span>
                         <Link href="https://campus.byccinievre.fr/" target="_blank">CS2I</Link>
                         <span>1 mois</span>
@@ -46,7 +46,7 @@ const TAB_DATA = [
                     </p>
                 </li>
                 <li className="md:ml-4 mb-2">
-                    <p className="grid grid-cols-4 text-center">
+                    <p className="grid grid-cols-4 text-[13px] text-center">
                         <span>2020</span>
                         <Link href="https://www.linkedin.com/company/technicentre-sncf-industriel-nevers-languedoc" target="_blank">SNCF</Link>
                         <span>1 mois</span>

@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const CVButton = () => {
     const openPdf = () => {
         // Remplacez le chemin ci-dessous par le chemin de votre fichier PDF
-        window.open('/docs/CV_Augendre-Meidi_professionnel.pdf', '_blank');
+        window.open('/docs/CV_Meidi_Augendre.pdf', '_blank');
     };
 
     return(

@@ -1,4 +1,4 @@
-"use client";
+ "use client";
 import React from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -33,26 +33,26 @@ const ProjetSection = () => {
                             spaceBetween: 30,
                         },
                     }}
-                    className="mySwiper w-[95%] h-[95%]"
+                    className="mySwiper w-[95%] h-[95%] flex justify-center items-center"
                 >
 
                     <SwiperSlide
-                        className=""
+                        className="impoFlex flex justify-center items-center"
                     >
-                        <div className="w-4/5 h-full flex flex-col justify-evenly items-center">
-                            <p className="text-white text-3xl font-bold">Portfolio</p>
+                        <div className="w-full md:w-4/5 h-full flex flex-col justify-evenly items-center">
+                            <p className="text-white text-2xl font-bold">Portfolio</p>
                             <Image src="/images/portfolioImg.png" alt="Image GSB" width={520} height={520}
                                    className="border-2"/>
-                            <p className="text-white text-xl text-justify">Portfolio basé sur du ReactJS avec NextJS. Le projet du portfolio a pour but de m&apos;initier à ces deux technologies.</p>
+                            <p className="text-white text-[14px] md:text-xl text-justify">Portfolio basé sur du ReactJS avec NextJS. Le projet du portfolio a pour but de m&apos;initier à ces deux technologies.</p>
                             <div
-                                className="w-full text-white flex flex-row justify-evenly items-center bg-[#917FB3] rounded-3xl">
-                                <Image src="/images/html.png" alt="Icones8" width={100} height={100}
+                                className="w-full text-white flex flex-row justify-evenly items-center bg-[#917FB3] rounded-3xl p-1">
+                                <Image src="/images/html.png" alt="Icones8" width={50} height={50}
                                        className="aspect-[3/2] object-contain md:aspect-square"/>
-                                <Image src="/images/tailwind.png" alt="Icones8" width={120} height={120}
+                                <Image src="/images/tailwind.png" alt="Icones8" width={50} height={50}
                                        className="aspect-[3/2] object-contain md:aspect-square"/>
-                                <Image src="/images/reactjs.png" alt="Icones8" width={100} height={100}
+                                <Image src="/images/reactjs.png" alt="Icones8" width={50} height={50}
                                        className="aspect-[3/2] object-contain md:aspect-square"/>
-                                <svg aria-label="Next.js logotype" height="18" role="img" viewBox="0 0 400 79">
+                                <svg aria-label="Next.js logotype" width="100" role="img" viewBox="0 0 400 79">
                                     <path
                                         d="M261.919 0.0330722H330.547V12.7H303.323V79.339H289.71V12.7H261.919V0.0330722Z"
                                         fill="var(--geist-foreground)"></path>
@@ -79,27 +79,29 @@ const ProjetSection = () => {
                                 </svg>
                             </div>
                             <Link href="https://github.com/Meidi-Agd/portfolioV3" target="_blank"
-                                  className="w-1/2 flex flex-row justify-evenly items-center cursor-pointer">
+                                  className="w-full md:w-1/2 flex flex-row justify-evenly items-center cursor-pointer">
                                 Voir le code source
                             </Link>
                         </div>
                     </SwiperSlide>
 
-                    <SwiperSlide>
-                    <div className="w-4/5 h-full flex flex-col justify-evenly items-center">
-                        <p className="text-white text-3xl font-bold">TheHive stats (en Dev)</p>
+                    <SwiperSlide
+                        className="impoFlex flex justify-center items-center"
+                    >
+                    <div className="w-full md:w-4/5 h-full flex flex-col justify-evenly items-center">
+                        <p className="text-white text-xl font-bold">TheHive stats</p>
                         <Image src="/images/hivetoolsImg.png" alt="Image GSB" width={520} height={520}
                                className="border-2"/>
-                        <p className="text-white text-xl text-justify">Je souhaite créer une application où l&apos;on peut consulter ses stats d’un serveur du jeu populaire Minecraft.</p>
+                        <p className="text-white text-[14px] md:text-xl text-justify">Je souhaite créer une application où l&apos;on peut consulter ses stats d’un serveur du jeu populaire Minecraft. (en dev...)</p>
                         <div
-                            className="w-full text-white flex flex-row justify-evenly items-center bg-[#917FB3] rounded-3xl">
-                            <Image src="/images/html.png" alt="Icones8" width={100} height={100}
+                            className="w-full text-white flex flex-row justify-evenly items-center bg-[#917FB3] rounded-3xl p-1">
+                            <Image src="/images/html.png" alt="Icones8" width={50} height={50}
                                    className="aspect-[3/2] object-contain md:aspect-square"/>
-                            <Image src="/images/tailwind.png" alt="Icones8" width={120} height={120}
+                            <Image src="/images/tailwind.png" alt="Icones8" width={50} height={50}
                                    className="aspect-[3/2] object-contain md:aspect-square"/>
-                            <Image src="/images/reactjs.png" alt="Icones8" width={100} height={100}
+                            <Image src="/images/reactjs.png" alt="Icones8" width={50} height={50}
                                    className="aspect-[3/2] object-contain md:aspect-square"/>
-                            <svg aria-label="Next.js logotype" height="18" role="img" viewBox="0 0 400 79">
+                            <svg aria-label="Next.js logotype" width="100" role="img" viewBox="0 0 400 79">
                                 <path
                                     d="M261.919 0.0330722H330.547V12.7H303.323V79.339H289.71V12.7H261.919V0.0330722Z"
                                     fill="var(--geist-foreground)"></path>
@@ -126,34 +128,34 @@ const ProjetSection = () => {
                             </svg>
                         </div>
                         <Link href="https://hivetools.app/" target="_blank"
-                              className="w-1/2 flex flex-row justify-evenly items-center cursor-pointer">
+                              className="w-full md:w-1/2 flex flex-row justify-evenly items-center cursor-pointer">
                             Voir le site de base
                         </Link>
                     </div>
                 </SwiperSlide>
 
                     <SwiperSlide
-                        className=""
+                        className="impoFlex flex justify-center items-center"
                     >
-                        <div className="w-4/5 h-full flex flex-col justify-evenly items-center">
-                            <p className="text-white text-3xl font-bold">GSB FRAIS</p>
+                        <div className="w-full md:w-4/5 h-full flex flex-col justify-evenly items-center">
+                            <p className="text-white text-xl font-bold">GSB FRAIS</p>
                             <Image src="/images/gsblogo.jpg" alt="Image GSB" width={520} height={520}
                                    className="border-2"/>
-                            <p className="text-white text-xl text-justify">GSB Appli-Frais est une application web pour
+                            <p className="text-white text-[14px] md:text-xl text-justify">GSB Appli-Frais est une application web pour
                                 la gestion des notes de frais d&apos;une entreprise. </p>
                             <div
-                                className="w-full text-white flex flex-row justify-evenly items-center bg-[#917FB3] rounded-3xl">
-                                <Image src="/images/html.png" alt="Icones8" width={100} height={100}
+                                className="w-full text-white flex flex-row justify-evenly items-center bg-[#917FB3] rounded-3xl p-1">
+                                <Image src="/images/html.png" alt="Icones8" width={50} height={50}
                                        className="aspect-[3/2] object-contain md:aspect-square"/>
-                                <Image src="/images/css.png" alt="Icones8" width={120} height={120}
+                                <Image src="/images/css.png" alt="Icones8" width={60} height={60}
                                        className="aspect-[3/2] object-contain md:aspect-square"/>
-                                <Image src="/images/php.png" alt="Icones8" width={120} height={120}
+                                <Image src="/images/php.png" alt="Icones8" width={50} height={50}
                                        className="aspect-[3/2] object-contain md:aspect-square"/>
-                                <Image src="/images/mariadb.png" alt="Icones8" width={120} height={120}
+                                <Image src="/images/mariadb.png" alt="Icones8" width={50} height={50}
                                        className="aspect-[3/2] object-contain md:aspect-square"/>
                             </div>
                             <Link href="https://github.com/Meidi-Agd/gsbAppliFrais" target="_blank"
-                                  className="w-1/2 flex flex-row justify-evenly items-center cursor-pointer">
+                                  className="w-full md:w-1/2 flex flex-row justify-evenly items-center cursor-pointer">
                                 Voir le code source
                             </Link>
                         </div>
